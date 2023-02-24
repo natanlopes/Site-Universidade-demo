@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="site de exemeplo ">
+      <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+      <meta name="author" content="natan">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+<!---================================================ bootstrap -->
+      
+      <link rel="stylesheet" href="styles.css">
+      
+      
+<!---=================================================== fontes -->
+      
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+      <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
+<!---==================================================== icons -->
+      
+    </head>
+    <body>
+<!--======================================================== MENU ========================================= -->
+<section class="sub-header"> 
+            <nav>
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()" ></i>
+                    <ul class="menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Cursos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contatos</a></li>
+                              
+                       
+                    </ul>
+                    
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>
+                Contatos
+            </h1>
+</section >
+<!----====================================================== CONTATOS  ================================== -->
+<selectio class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3407994237173!2d-38.50378948524102!3d-3.735703797282087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74935a972112f%3A0xbadbb412697ea625!2sInfinity%20School%20Fortaleza!5e0!3m2!1spt-BR!2sbr!4v1677193831108!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</selectio>
+<section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+         <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>XYZ Road, ABC Building</h5>
+                <p>Bangalore, Karnataka,IN </p>
+            </span>
+         </div>
+         <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>XYZ Road, ABC Building</h5>
+                <p>Bangalore, Karnataka,IN </p>
+            </span>
+         </div>
+
+        </div>
+         <div class="contact-col">
+
+         </div>
+      </div>
+
+</section>
+<!----====================================================== RODAPÉ ================================== -->
+<section class="footer">
+       <h4>Sobre nos</h4>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+     </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        
+    </div>
+    <p>Feito <i class="fa fa-heart-o"></i> por Natan.</p>
+</section>
+<!--=============================== java script clicar no menu e abri as opcoes ================================-->
+          <script>
+              var   navlinks = document.getElementById("navlinks");
+              function showMenu(){
+                  navlinks.style.right="0";
+              }
+              function hideMenu(){
+                navlinks.style.right="-200px"
+              }
+
+          </script>
+    </body>
+ </html>
+
+
