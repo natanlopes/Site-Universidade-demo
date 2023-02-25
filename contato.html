@@ -34,11 +34,11 @@
                 <div class="nav-links" id="navlinks">
                     <i class="fa fa-times" onclick="hideMenu()" ></i>
                     <ul class="menu">
-                        <li><a href="">Home</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Cursos</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contatos</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li><a href="course.html">Cursos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contato.html">Contatos</a></li>
                               
                        
                     </ul>
@@ -60,34 +60,34 @@
          <div>
             <i class="fa fa-home"></i>
             <span>
-                <h5>XYZ Road, ABC Building</h5>
-                <p>Bangalore, Karnataka,IN </p>
+                <h5>Front WEB</h5>
+                <p>Fortalez,CE,IN </p>
             </span>
          </div>
          <div>
             <i class="fa fa-phone"></i>
             <span>
                 <h5>(85)989498874</h5>
-                <p>Monday to Saturday , 10AM to 6PM </p>
+                <p>Segunda a Sábado, das 10h às 18h </p>
             </span>
          </div>
          <div>
             <i class="fa fa-envelope-o"></i>
             <span>
                 <h5>natan1918@gmail.com</h5>
-                <p>Email us your query </p>
+                <p>Envie-nos a sua consulta por e-mail </p>
             </span>
          </div>
         </div>
          <div class="contact-col">
      
-            <form action="">
+            <form action="form-handler.php" method="post">
 
-                <input type="text" placeholder="Nome" required>
-                <input type="email" placeholder="email" required>
-                <input type="text" placeholder="subject" required>
-                <textarea rows="8" placeholder="Messagem" required></textarea>
-                <button type="submit" class="hero-btn red-btn">Envia Mensagem </button>
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="subject" placeholder="Assunto" required>
+                <textarea rows="8" name="message" placeholder="Menssagem" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Envia Menssagem </button>
             </form>
          </div>
       </div>
